@@ -14,7 +14,6 @@
 
 import os
 import warnings
-
 import paddle
 from paddle.base import core
 from paddle.base.core import (
