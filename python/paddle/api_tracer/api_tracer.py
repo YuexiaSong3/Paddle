@@ -16,7 +16,6 @@ import math
 import numpy as np
 import yaml
 
-
 class HookAPIMap:
     pass
 
@@ -170,7 +169,6 @@ class ConfigDump:
 
 
 config_dump = ConfigDump()
-
 
 class APITemplate:
     def __init__(self, api_name):
