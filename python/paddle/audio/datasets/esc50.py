@@ -12,15 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from __future__ import annotations
-
 import os
 from typing import TYPE_CHECKING, Any, Literal, NamedTuple
-
 from typing_extensions import TypeAlias
-
 from paddle.dataset.common import DATA_HOME
 from paddle.utils import download
-
 from .dataset import AudioClassificationDataset
 
 if TYPE_CHECKING:
